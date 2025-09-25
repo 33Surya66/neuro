@@ -1,6 +1,6 @@
 # Overview
 
-Neurovision is a Flutter-based mobile application focused on computer vision and machine learning capabilities. The project appears to be in early development, with a basic Flutter structure and key ML/vision dependencies integrated. The app likely provides real-time camera functionality with face detection and data visualization features.
+NeuroVision is a sophisticated Flutter-based mobile application designed for real-time neuro-tracking and cognitive health monitoring. The app provides professional medical-grade functionality for fatigue detection, drowsiness monitoring, and early neurological symptom identification using advanced computer vision and machine learning technologies. Built with a dark theme medical interface, it offers live camera tracking, detailed analytics dashboards, and comprehensive session history.
 
 # User Preferences
 
@@ -9,10 +9,12 @@ Preferred communication style: Simple, everyday language.
 # System Architecture
 
 ## Frontend Architecture
-- **Framework**: Flutter cross-platform framework for mobile app development
-- **State Management**: Uses both Flutter Riverpod and Provider patterns for state management, providing flexibility for different use cases
-- **UI Components**: Material Design with Cupertino icons for iOS-style elements
-- **Charts**: FL Chart library for data visualization and graphical representations
+- **Framework**: Flutter cross-platform framework optimized for web deployment (mobile compatibility maintained)
+- **Theme**: Professional dark medical-grade UI with custom color scheme (0xFF0F172A background, 0xFF7C83FD primary)
+- **State Management**: Uses both Flutter Riverpod and Provider patterns for state management
+- **UI Components**: Material Design 3 with custom medical interface components
+- **Charts**: FL Chart library for real-time analytics and trend visualization
+- **Navigation**: Bottom tab navigation with Home, Tracker, and Dashboard screens
 
 ## Mobile Platform Integration
 - **Camera Access**: Native camera integration using the camera plugin for real-time image capture

@@ -22,12 +22,12 @@ class GradientButton extends StatelessWidget {
       height: 56,
       decoration: BoxDecoration(
         gradient: const LinearGradient(
-          colors: [Color(0xFFFFFFFF), Color(0xFFF8F9FA)],
+          colors: [Color(0xFF7C83FD), Color(0xFF6366F1)],
         ),
         borderRadius: BorderRadius.circular(28),
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withOpacity(0.1),
+            color: const Color(0xFF7C83FD).withOpacity(0.3),
             blurRadius: 10,
             offset: const Offset(0, 4),
           ),
@@ -56,7 +56,7 @@ class GradientButton extends StatelessWidget {
                   if (icon != null) ...[
                     Icon(
                       icon,
-                      color: const Color(0xFF6C63FF),
+                      color: Colors.white,
                       size: 20,
                     ),
                     const SizedBox(width: 8),
@@ -66,7 +66,7 @@ class GradientButton extends StatelessWidget {
                     style: GoogleFonts.inter(
                       fontSize: 16,
                       fontWeight: FontWeight.w600,
-                      color: const Color(0xFF6C63FF),
+                      color: Colors.white,
                     ),
                   ),
                 ],
